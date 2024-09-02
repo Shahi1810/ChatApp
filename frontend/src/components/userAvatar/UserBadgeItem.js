@@ -15,18 +15,11 @@ const UserBadgeItem = ({ user, handleFunction, admin }) => {
       cursor="pointer"
       onClick={handleFunction}
     >
-      <a
-        href="https://taskzen-tm.onrender.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        taskzen
-      </a>
+      {user.name}
       {admin === user._id && <span> (Admin)</span>}
       <CloseIcon pl={1} />
     </Badge>
   );
-
 };
 
 export default UserBadgeItem;
