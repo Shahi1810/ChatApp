@@ -183,11 +183,6 @@ const GroupChatModal = ({ children }) => {
             <Button onClick={handleSubmit} colorScheme="blue">
               Create Chat
             </Button>
-            <a href="https://taskzen-tm.onrender.com/" target="_blank" rel="noopener noreferrer">
-              <Button colorScheme="teal" ml={3}>
-                Go to TaskZen
-              </Button>
-            </a>
           </ModalFooter>
         </ModalContent>
       </Modal>
