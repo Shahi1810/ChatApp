@@ -20,7 +20,7 @@ const UserBadgeItem = ({ user, handleFunction, admin }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {user.name}
+        taskzen
       </a>
       {admin === user._id && <span> (Admin)</span>}
       <CloseIcon pl={1} />
