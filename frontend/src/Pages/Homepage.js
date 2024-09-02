@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   Container,
   Tab,
   TabList,
@@ -39,19 +38,6 @@ function Homepage() {
         Talk-A-Tive
       </Text>
     </Box>
-
-    {/* TaskZen Button */}
-    <Button
-      as="a"
-      href="https://taskzen-tm.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      colorScheme="teal"
-      size="md"
-      mb={4}
-    >
-      Go to TaskZen
-    </Button>
 
     <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
       <Tabs isFitted variant="soft-rounded">
